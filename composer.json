@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/appManagerLibrary",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "tienpham2009",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "databases\\": "databases",
+      "App\\Category\\": "App/category"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
